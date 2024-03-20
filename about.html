@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Thiago Balera | About</title>
+        <meta name="author" content="Lucas Araujo">
+        <meta name="description" content="Page about Thiago Balera, with information, music style and influences">
+        <meta name="keywords" content="Thiago Balera biography profile bio about information music style influences">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <!--Reference: https://www.w3schools.com/howto/howto_css_modal_images.asp-->
+        <link href="css/modal.css" rel="stylesheet">
+        <!--link to external CSS stylesheet-->
+        <link href="css/styles.css" rel="stylesheet">
+        <!--link to animate CSS library-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </head>
+    <body>
+        <header>  
+            <!-- Logo -->
+            <div id="logo">
+                <img src=images/logos/thiago_balera.png>
+            </div>
+            
+            <!-- Navigation Menu -->
+            <nav id="navbar">
+                <!-- Reference: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp -->
+                <button class="burger-menu" onclick="toggleMenu()">&#9776;</button>
+                <div id="menu"> 
+                    <a href="index.html" title="Home">Home</a>
+                    <a href="about.html" class="activeMenu" title="About">About</a>
+                    <a href="media.html" title="Media">Media</a>
+                    <a href="contact.html" title="Contact">Contact</a>
+                </div>
+            </nav>
+        </header>
+        
+        <main class="container"> 
+            <section class="about">
+                <h1 class="animate__animated animate__bounceInLeft">About</h1>          
+                <img src="images/about/thiago_balera.jpg" alt="Thiago Balera with the guitar" class="left">
+                <p><strong>Thiago Balera</strong> is a self-taught musician and instrumentalist who discovered his love for music at a young age. He started playing instruments such as drums, guitar, and bass in his teens, and also developed his singing skills. With time, his style and personality matured within the music scene, leading him to pursue formal music education.</p>
+                <p>Balera studied at the renowned Dramatic and Musical Conservatory "Dr. Carlos de Campos" in Tatuí, SP, and has been working professionally with music since 2010. He is known for his versatility and range, with a style that spans from pop to samba, providing a diverse sound that pleases audiences of all ages and musical preferences.</p>
+                <p>What sets Thiago apart is his beautiful voice and his taste for covering famous songs. He is a talented musician who can bring a unique touch to any song. With his passion for music and dedication to his craft, he is sure to deliver a memorable performance that will leave a lasting impression on your audience.</p>
+            </section> 
+
+            <section class="gallery">
+                <hr>
+                <div class="thumbnails">
+                    <img src="images/photos/thumb/thiago_balera_1.jpg" data-src="images/photos/thiago_balera_1.jpg" alt="Image 1">
+                    <img src="images/photos/thumb/thiago_balera_2.jpg" data-src="images/photos/thiago_balera_2.jpg" alt="Image 2">
+                    <img src="images/photos/thumb/thiago_balera_3.jpg" data-src="images/photos/thiago_balera_3.jpg" alt="Image 3">
+                    <img src="images/photos/thumb/thiago_balera_4.jpg" data-src="images/photos/thiago_balera_4.jpg" alt="Image 4">
+                    <img src="images/photos/thumb/thiago_balera_5.jpg" data-src="images/photos/thiago_balera_5.jpg" alt="Image 5">
+                    <img src="images/photos/thumb/thiago_balera_6.jpg" data-src="images/photos/thiago_balera_6.jpg" alt="Image 6">
+                    <img src="images/photos/thumb/thiago_balera_7.jpg" data-src="images/photos/thiago_balera_7.jpg" alt="Image 7">
+                    <img src="images/photos/thumb/thiago_balera_8.jpg" data-src="images/photos/thiago_balera_8.jpg" alt="Image 8">
+                    <img src="images/photos/thumb/thiago_balera_9.jpg" data-src="images/photos/thiago_balera_9.jpg" alt="Image 9">
+                    <img src="images/photos/thumb/thiago_balera_10.jpg" data-src="images/photos/thiago_balera_10.jpg" alt="Image 10">
+                    <img src="images/photos/thumb/thiago_balera_11.jpg" data-src="images/photos/thiago_balera_11.jpg" alt="Image 11">
+                    <img src="images/photos/thumb/thiago_balera_12.jpg" data-src="images/photos/thiago_balera_12.jpg" alt="Image 12">
+                </div>
+
+                <!--Reference: https://www.w3schools.com/howto/howto_css_modal_images.asp-->
+                <div class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-image" src="">
+                    <div class="caption"></div>
+                    <a class="prev">&#10094;</a>
+                    <a class="next">&#10095;</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <!-- Social Media Icons -->
+            <div id="socialMedia">
+                <a href="https://www.instagram.com/lu4arts" target="_blank" title="Visit my Instagram!"><img src="images/socialmedia/instagram.png" alt="Instagram icon"></a>
+                <a href="https://www.facebook.com/lucas.ufjf/" target="_blank" title="Visit my Facebook!"><img src="images/socialmedia/facebook.png" alt="Facebook icon"></a>                
+                <a href="https://www.facebook.com/lucas.ufjf/" target="_blank" title="Visit my Facebook!"><img src="images/socialmedia/twitter.png" alt="Facebook icon"></a>                
+            </div> 
+            <em class="small">Copyright 2024 by <strong>Lucas Araujo</strong> | All Rights Reserved</em>.
+        </footer>       
+
+        <!--Reference: https://www.w3schools.com/howto/howto_css_modal_images.asp-->
+        <script src="javascript/modal.js"></script>
+        <script src="javascript/scripts.js"></script>
+    </body>
+</html>
